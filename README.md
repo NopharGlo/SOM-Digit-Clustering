@@ -79,7 +79,9 @@ These results demonstrate the ability of SOM to capture underlying structure in 
 
 The results are visualized using two complementary grids:
 - A grid showing the learned digit representations
+  ![SOM Representations](images/som-neuron-representations.png)
 - A grid showing the dominant digit and purity percentage for each neuron
+- ![SOM Clustering](images/som-labels-and-accuracy.png)
 
 ---
 
@@ -95,3 +97,38 @@ For a detailed explanation of the implementation, experiments, and results, see 
 
 - SOM successfully groups similar digit patterns without labels
 - Neighbor updates help maintain smooth transitions across the grid
+
+---
+
+## How to Run
+
+### Requirements
+
+- Python 3.x
+- pandas
+- numpy
+- tkinter (for GUI visualization, included in most Python installations)
+
+### Steps
+
+1. Clone the repository:
+```bash
+git clone https://github.com/NopharGlo/SOM-Digit-Clustering.git
+cd SOM-Digit-Clustering
+```
+
+2.Install dependencies:
+```bash
+python3 -m pip install pandas numpy
+```
+
+> Note: If tkinter is not installed, it may need to be installed separately depending on your system.
+
+3. Run the project:
+```bash
+python3 main.py
+```
+
+The program will train the SOM and display the visualization results.
+
+> Note: The execution may take up to one minute due to the training process. Please wait until the results are displayed.
