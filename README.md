@@ -78,10 +78,22 @@ These results demonstrate the ability of SOM to capture underlying structure in 
 ## Visualization
 
 The results are visualized using two complementary grids:
-- A grid showing the learned digit representations
-  <img src="images/som-neuron-representations.png" width="600"/>
-- A grid showing the dominant digit and purity percentage for each neuron
-  <img src="images/som-labels-and-accuracy.png" width="600"/>
+
+### Learned digit representations
+
+<p align="center">
+  <img src="images/som-neuron-representations.png" width="400"/>
+</p>
+
+This grid shows the learned digit representations.
+
+### Dominant digit and purity
+
+<p align="center">
+  <img src="images/som-labels-and-accuracy.png" width="400"/>
+</p>
+
+This grid shows the dominant digit and purity percentage for each neuron.
 
 ---
 
