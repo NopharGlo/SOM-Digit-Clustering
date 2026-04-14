@@ -129,7 +129,7 @@ git clone https://github.com/NopharGlo/SOM-Digit-Clustering.git
 cd SOM-Digit-Clustering
 ```
 
-2.Install dependencies:
+2. Install dependencies:
 ```bash
 python3 -m pip install pandas numpy
 ```
