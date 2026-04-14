@@ -81,7 +81,7 @@ The results are visualized using two complementary grids:
 
 ### Learned digit representations
 
-<p align="center">
+<p>
   <img src="images/som-neuron-representations.png" width="400"/>
 </p>
 
@@ -89,7 +89,7 @@ This grid shows the learned digit representations.
 
 ### Dominant digit and purity
 
-<p align="center">
+<p>
   <img src="images/som-labels-and-accuracy.png" width="400"/>
 </p>
 
